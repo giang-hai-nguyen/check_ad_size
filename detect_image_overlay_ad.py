@@ -423,11 +423,11 @@ cv2.destroyAllWindows()
 
 if __name__ == "__main__":
     
-    # detect_ad_fast_high_res('./main_video/main_video_2.mp4', './ads/overlay_ad_1.png')
+    detect_ad_fast_high_res('./main_video/main_video_2.mp4', './ads/overlay_ad_1.png')
 
     # detect_ad_comprehensive('./main_video/main_video_2.mp4', './ads/overlay_ad_1.png')
     
-    detect_ad_comprehensive_4k('./main_video/main_video_2.mp4', './ads/overlay_ad.png')
+    # detect_ad_comprehensive_4k('./main_video/main_video_2.mp4', './ads/overlay_ad.png')
 
     # test_overlay_on_image('./main_video/background_image.png', './ads/overlay_ad_2.png')
 
